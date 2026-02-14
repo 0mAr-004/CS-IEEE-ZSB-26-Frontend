@@ -1,0 +1,17 @@
+1- button input<type submit>
+
+2- <h1></h1>
+
+3- <h2></h2>
+
+4- <p></p>
+
+5- <html lang= "ar"></html> 
+
+6- 10 -20
+
+7-  <div tabindex="0"> accessible tab</div>
+
+8 - ARIA : accessiblerich internet application
+
+
