@@ -1,0 +1,22 @@
+        .element-1,.element-2,.element-3 {
+            width: 400px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            background-color: #f1f1f1;
+            font-size: 18px;
+            border-left: 6px solid;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .element-1 {
+            border-color: #e91e63;
+        }
+        .element-2{
+            visibility: hidden;
+        }
+
+        .element-3 {
+            border-color: green;
+            position: sticky;
+            top: 10px;
+        }

@@ -1,0 +1,19 @@
+.a1,.a2,.a3{
+    display: inline-block;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    background-color: grey;
+    margin: 10px;
+
+}
+.a1{
+    border-color: red;
+}
+.a2{
+    border-color: blue green;
+}
+.a3{
+    border-color: red green blue yellow;
+    border-style: dashed;
+}
