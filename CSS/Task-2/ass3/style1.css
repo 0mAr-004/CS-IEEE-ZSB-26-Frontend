@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+    padding: 50px;
+    border-color: orange;
+    border-style: solid;
+
+
+}
+p{
+
+    background-color: grey;
+    padding: inherit;
+    border-style: solid;
+    border-color: inherit;
+
+}

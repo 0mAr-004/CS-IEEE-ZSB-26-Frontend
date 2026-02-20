@@ -1,0 +1,22 @@
+.one{
+    background-color: grey;
+    width: 400px;
+
+}
+.two{
+    background-color: grey;
+    width:400px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    
+
+}
+.three{
+    background-color: grey;
+    width: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}

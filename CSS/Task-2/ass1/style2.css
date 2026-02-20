@@ -1,0 +1,17 @@
+div{
+    background-color: brown;
+    color: white;
+    display: block;
+    margin: 10px;
+    height: 60px;
+    max-width: 400px;
+    padding :20px;
+    font-size: 20px;
+    width: fit-content;
+
+}
+.one {
+    background-color: rgb(176, 193, 230); 
+    overflow: hidden;
+    color: black;
+}
