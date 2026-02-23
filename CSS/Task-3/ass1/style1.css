@@ -1,0 +1,44 @@
+body {
+    background: #ddd;
+}
+
+.parent {
+    width: 800px;
+    margin: 10px auto;
+    background: #eee;
+    overflow: hidden;
+    
+}
+
+
+.one {
+    background: #bbb;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+}
+
+.three div,.two div,.four div
+ {
+    float: left;
+    background: #bbb;
+    text-align: center;
+    margin-left:15px;
+    margin-bottom: 15px;
+    padding-block: 15px;
+    
+    
+}
+
+
+.three div {
+
+    width: calc((100% - 60px) / 3);
+}
+.two div{
+    width: calc((100% - 45px) / 2);
+}
+.four div{
+    width: calc((100% - 75px) / 4);
+
+}

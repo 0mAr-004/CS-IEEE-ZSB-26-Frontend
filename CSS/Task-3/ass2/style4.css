@@ -1,0 +1,54 @@
+ body {
+
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+table {
+    width: 700px;
+    text-align: center;
+    padding: 30px;
+    border-spacing: 3px;
+
+        }
+
+th {
+    background-color: rgb(73, 72, 70);
+    color: white;
+    height: 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+tr {
+    background-color: #EEE;
+    margin: 10px;
+        }
+
+.btn-view {
+    background-color: rgb(17, 138, 219);
+    color: white;
+    border: none;
+    height: 25px;
+    width: 50px;
+        }
+
+.btn-delete {
+    background-color: rgb(230, 62, 62);
+    color: white;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+
+caption {
+    font-weight: bold;
+    
+}

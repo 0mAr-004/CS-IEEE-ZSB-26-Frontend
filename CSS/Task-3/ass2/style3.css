@@ -1,0 +1,27 @@
+.first,.second,.third{
+    padding: 5px auto;
+    margin: 20px auto;
+    width: 400px;
+    align-items: center;
+   
+}
+li{
+    margin-bottom: 10px;
+    background-color: #eee;
+}
+ul li ol li,ul li ul li {
+    background-color: white;
+    margin: 5px;
+}
+ ul{
+    list-style-type: none;
+}
+
+.third ul{
+    padding-left: 0;
+    
+    list-style: inside;
+}
+.third ul li{
+    list-style-type: circle;
+}
