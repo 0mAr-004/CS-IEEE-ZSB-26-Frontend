@@ -1,0 +1,37 @@
+p{
+    background-color: #eee;
+    width: 350px;
+    height: 30px;
+    margin: 20px auto;
+    position: relative;
+}
+p::before{
+    content: attr(data-person);
+    width: 60px;
+    height: 20px;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    left: -75px
+   
+}
+p::after{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: rgb(211, 57, 134);
+    position: absolute;
+    left: -2px;
+} 
+p span{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+    top:50%;
+    margin-top: -10px;
+    border: 10px solid;
+    border-color:transparent rgb(211, 57, 134) transparent transparent ;
+
+} 
