@@ -1,0 +1,39 @@
+.parent {
+    background-color: #EEE;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent div {
+    width: 100px;
+    height: 50%;
+    align-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.one {
+    background-color: orange;
+    order: 2;
+}
+
+.two {
+    background-color: rgb(146, 203, 61);
+    align-self: self-end;
+    order: 3;
+}
+
+.three {
+    background-color: brown;
+    order: 4;
+}
+
+.four {
+    background-color: purple;
+    order: 1;
+    align-self: self-end;
+}
