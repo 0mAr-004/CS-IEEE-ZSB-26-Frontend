@@ -1,0 +1,52 @@
+
+
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-areas:
+        "header header header header"
+        "section section section aside"
+        "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #0c99da;
+    color: white;;
+}
+
+section {
+    grid-area: section;
+    background-color: #f34b18;
+    color: white;
+}
+aside {
+    grid-area: aside;
+    background-color: #627c8a;
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #0aa898;
+    color: white;
+}
+
+header::before {
+    content: "Header";
+}
+
+section::before {
+    content: "Section";    
+}
+
+
+aside::before {
+    content: "Aside";
+}
+
+footer::before {
+    content: "Footer";
+}
