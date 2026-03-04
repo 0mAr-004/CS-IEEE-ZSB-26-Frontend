@@ -1,0 +1,45 @@
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-color: #EEE;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: transparent rgb(193, 51, 129) rgb(193, 51, 129) rgb(193, 51, 129);
+    transform: rotate(-90deg);
+    transition: 1s ;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    width: 105%;
+    height: 105%;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: transparent rgb(63, 127, 187) rgb(63, 127, 187) rgb(63, 127, 187);
+    transform: rotate(90deg);
+    transition: 1s 1s ;
+}
+
+
+        div:hover::before {
+            transform: rotate(270deg);
+        }
+
+        div:hover::after {
+            transform: rotate(450deg);
+        }
