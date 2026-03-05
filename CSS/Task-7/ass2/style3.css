@@ -1,0 +1,44 @@
+h1{
+    width: 400px;
+    height: 150px;
+    line-height: 150px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    color: white;
+    background-color: rgb(24, 100, 75);
+    text-align: center;
+    position: relative;
+    
+}
+
+h1::before {
+    content: "";
+    width: 20px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    transform: skewX(15deg); 
+ 
+
+}
+/* 
+    transform: matrix(0,0,15,0,0,0);
+
+
+
+*/
+
+h1::after {
+    content: "";
+    width: 30px;
+    height: 100%;
+    background-color: rgb(24, 100, 75);
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    transform: skewX(15deg);
+}
+/*  */

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s ease;
+}
+div::after,div::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backface-visibility: hidden;
+    
+}
+div::after{
+    content: "front";
+    background-color: red;
+    
+}
+div::before{
+    content: "back";
+    background-color: blue;
+    transform: rotateY(180deg);
+}
+div:hover{
+    transform: rotateY(180deg);
+}
