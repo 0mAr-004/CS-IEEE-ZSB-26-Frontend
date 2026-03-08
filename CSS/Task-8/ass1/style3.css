@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: black;
+    border-left-color:transparent ;
+    position: relative;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+
+}
+@keyframes spin {
+    from {
+        transform:  rotate(0deg);
+        }
+
+    to {
+        transform:  rotate(720deg);
+    }
+}
