@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.parent>div {
+    padding: 20px;
+    background: #eee;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.colored {
+    font-size: 20px;
+}
+
+/* Tablet */
+
+@media (min-width:768px) {
+
+    .parent {
+        display: grid;    
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px 20px;
+        grid-template-areas:
+            "one one one"
+            "two three four";
+    }
+
+    .colored {
+        color: red;
+    }
+
+}
+
+/* desktop */
+
+@media (min-width:992px) {
+
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 20px;
+        grid-template-areas:
+            "one one"
+            "two three"
+            "four four";
+    }
+
+    .colored {
+                color: rgb(36, 94, 172);
+    }
+
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+ 
