@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "omar",
+    "category": "Technology",
+    "title": "Introduction to Artificial Intelligence",
+    "content": "article 1"
+  },
+  {
+    "id": 2,
+    "author": " Mohamed",
+    "category": "Health",
+    "title": "Benefits of Regular Exercise",
+    "content": "article2"
+  },
+  {
+    "id": 3,
+    "author": " Hassan",
+    "category": "Education",
+    "title": "The Importance of Online Learning",
+    "content": "sricle3"
+  },
+  {
+    "id": 4,
+    "author": "Ibrahim",
+    "category": "Travel",
+    "title": "Best country to visit",
+    "content": "aricle4"
+  },
+  {
+    "id": 5,
+    "author": "simon kuper",
+    "category": "Sports",
+    "title": "why football is the greatest soprt of all time",
+    "content": "article5"
+  }
+]

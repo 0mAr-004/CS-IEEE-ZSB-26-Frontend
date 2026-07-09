@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+</head>
+
+<body>
+
+    <div id="data"></div>
+
+    <script>
+        fetch("2.1.json")
+            .then((response) => response.json())
+            .then((result) => {
+
+                result.length = 5;
+
+                result.forEach((article) => {
+                    document.getElementById("data").innerHTML += `
+        <div>
+          <h3>${article.title}</h3>
+          <p>${article.description}</p>
+        </div>
+        <hr>
+      `;
+                });
+
+            });
+    </script>
+
+</body>
+
+</html>

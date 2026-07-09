@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 3</title>
+    </head>
+
+    <body>
+
+        <div id="data"></div>
+
+        <script>
+            fetch("articles.json")
+                .then((response) => response.json())
+                .then((result) => {
+                    let data = document.getElementById("data");
+
+                    result.slice(0, 5).forEach((article) => {
+                        data.innerHTML += `
+        <div>
+          <h3>${article.title}</h3>
+          <p>${article.description}</p>
+        </div>
+        <hr>
+      `;
+                    });
+                });
+        </script>
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>
